@@ -1,11 +1,11 @@
-.about-list {
+.box-list {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 30px;
 }
 
-.about-picture {
+.box-list__wrap {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,11 +16,11 @@
     border-radius: 4px;
 }
 
-.about-picture-icon {
+.box-list__icon {
     fill: currentColor;
 }
 
-.about-title {
+.box-list__title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -30,7 +30,7 @@
     color: var(--first-text-color);
 }
 
-.about-text {
+.box-list__text {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;

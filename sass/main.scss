@@ -2,22 +2,21 @@
 @import './base/reset';
 @import './base/common';
 @import './utils/hidden';
-
 @import './components/container';
 @import './components/section';
-
 @import './layout/header';
+@import './components/logo';
+@import './components/navigation';
 @import './layout/hero';
 @import './layout/about';
-@import './layout/box';
+@import './layout/content';
 @import './layout/team';
+@import './components/social';
 @import './layout/clients';
 @import './layout/footer';
-
 @import './components/online';
 @import './components/backdrop';
 @import './components/modal';
-
 @import './components/menu';
 @import './layout/projects';
 

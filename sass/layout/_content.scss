@@ -1,8 +1,8 @@
-.box {
+.content {
     padding-top: 0;
 }
 
-.box-title {
+.content__title {
     margin-right: auto;
     margin-bottom: 50px;
     margin-left: auto;
@@ -14,16 +14,16 @@
     color: var(--first-text-color);
 }
 
-.box-list {
+.picture-list {
     display: flex;
     gap: 30px;
 }
 
-.box-thumb {
+.picture-list__box {
     position: relative;
 }
 
-.box-label {
+.picture-list__label {
     position: absolute;
     bottom: 0;
     left: 0;
