@@ -5,16 +5,16 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    &__web {
+        color: var(--accent-color);
+    }
+    
+    &--color-dark {
+        color: #000000;
+    }
+    
+    &--color-light {
+        color: var(--first-color);
+    }
 }
 
-.logo__web {
-    color: var(--accent-color);
-}
-
-.logo--color-dark {
-    color: #000000;
-}
-
-.logo--color-light {
-    color: var(--first-color);
-}

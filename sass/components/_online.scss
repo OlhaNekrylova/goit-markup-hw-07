@@ -11,19 +11,21 @@
 .user-form {
    display: flex;
    align-items: flex-end;
-}
-
-.user-form__input {
-    width: 358px;
-    height: 50px;
-    padding-left: 16px;
-    margin-right: 12px;
-    color: var(--first-color);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    background-color: transparent;
-    outline: transparent;
+   &__input {
+         width: 358px;
+         height: 50px;
+         padding-left: 16px;
+         margin-right: 12px;
+         color: var(--first-color);
+         border: 1px solid rgba(255, 255, 255, 0.3);
+         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+         border-radius: 4px;
+         background-color: transparent;
+         outline: transparent;
+   }
+   &__icon {
+         fill: var(--first-color);
+   }
 }
 
 .user-form__button-submit {
@@ -45,13 +47,10 @@
     border: none;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+         background-color: var(--second-accent-color);
+    }
 }
 
-.user-form__button-submit:hover,
-.user-form__button-submit:focus {
-    background-color: var(--second-accent-color);
-}
 
-.user-form__icon {
-    fill: var(--first-color);
-}
