@@ -30,6 +30,11 @@
     }
 }
 
+.navigation__list-link--current {
+    position: relative;
+    color: var(--accent-color);
+ }
+
 .navigation__list-link.navigation__list-link--current {
     color: var(--accent-color);
     &::after {
