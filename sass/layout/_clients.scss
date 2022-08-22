@@ -1,25 +1,14 @@
-.clients__title {
-    margin-right: auto;
-    margin-bottom: 50px;
-    margin-left: auto;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--first-text-color);
-}
-
-.company-list {
+.clients-list {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    &__icon {
-        fill: currentColor;
-    }
 }
 
-.company-list__link {
+.clients-list__icon {
+    fill: currentColor;
+}
+
+.clients-list__link {
     display: flex;
     align-items: center;
     justify-content: center;

@@ -3,19 +3,20 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--background-color);
-    &__container {
-        display: flex;
-        align-items: baseline;
-    }
+}
 
-    &__address {
-        margin-top: 20px;
-        font-style: normal;
-    }
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}
 
-    &__social {
-        margin-right: 93px;
-    }
+.footer__address {
+    margin-top: 20px;
+    font-style: normal;
+}
+
+.footer__social {
+    margin-right: 93px;
 }
 
 .contacts {

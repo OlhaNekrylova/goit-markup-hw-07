@@ -1,25 +1,26 @@
 .header {
     border-bottom: 1px solid #ECECEC;
     background-color: var(--first-color);
-    &__page {
-        display: flex;
-        align-items: center;
-    }
-    
-    &__connect {
-        display: flex;
-        margin-left: auto;
-    }
 }
 
-.header__connect-item {
+.header__page {
+    display: flex;
+    align-items: center;
+}
+
+.header__connect {
+    display: flex;
+    margin-left: auto;
+}
+
+.connect__item {
     margin-right: 50px;
     &:last-child {
         margin-right: 0;
     }
 }
 
-.header__connect-link {
+.connect__link {
     display: flex;
     align-items: center;
     padding: 32px 0;
@@ -34,7 +35,7 @@
     }
 }
 
-.header__connect-icon {
+.connect__icon {
     margin-right: 10px;
     fill: currentColor;
 }
